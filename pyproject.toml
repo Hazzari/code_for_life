@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "code_for_life"
+version = "0.1.0"
+description = ""
+authors = ["Aleksan <Dev.aleksan@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+environs = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
