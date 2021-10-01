@@ -1,0 +1,30 @@
+10.01.2021-16:13:38:MSK | INFO : ------>>>>>> Запуск проверки
+10.01.2021-16:13:39:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/__init__.py
+10.01.2021-16:13:39:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/file_renamer/file_renamer.py
+10.01.2021-16:13:39:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/file_renamer/__init__.py
+10.01.2021-16:13:39:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/file_renamer/data/File_001.jpg
+10.01.2021-16:13:39:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/file_renamer/data/File_002.txt
+10.01.2021-16:13:39:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/file_renamer/data/ad/File_003.jpg
+10.01.2021-16:13:39:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/file_renamer/data/ab/File_005.jpg
+10.01.2021-16:13:39:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/file_renamer/data/ab/File_006.png
+10.01.2021-16:13:39:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/file_renamer/data/ab/aa/File_007.jpg
+10.01.2021-16:13:39:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/find_virus/__init__.py
+10.01.2021-16:13:39:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/find_virus/find_virus.log
+10.01.2021-16:13:39:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/find_virus/app.py
+10.01.2021-16:13:39:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/find_virus/data/probe.txt
+10.01.2021-16:13:39:MSK | INFO : ------>>>>>> Остановка проверки
+10.01.2021-16:18:27:MSK | INFO : ------>>>>>> Запуск проверки
+10.01.2021-16:18:27:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/__init__.py
+10.01.2021-16:18:27:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/file_renamer/file_renamer.py
+10.01.2021-16:18:27:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/file_renamer/__init__.py
+10.01.2021-16:18:27:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/file_renamer/data/File_001.jpg
+10.01.2021-16:18:27:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/file_renamer/data/File_002.txt
+10.01.2021-16:18:27:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/file_renamer/data/ad/File_003.jpg
+10.01.2021-16:18:27:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/file_renamer/data/ab/File_005.jpg
+10.01.2021-16:18:27:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/file_renamer/data/ab/File_006.png
+10.01.2021-16:18:27:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/file_renamer/data/ab/aa/File_007.jpg
+10.01.2021-16:18:27:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/find_virus/__init__.py
+10.01.2021-16:18:27:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/find_virus/find_virus.log
+10.01.2021-16:18:27:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/find_virus/app.py
+10.01.2021-16:18:27:MSK | INFO : WARNING Подозрительный файл /Users/aleksan/Code/portfolio/code_for_life/1_file_and_dirs/find_virus/data/probe.txt
+10.01.2021-16:18:27:MSK | INFO : ------>>>>>> Остановка проверки
