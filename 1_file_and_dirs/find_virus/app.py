@@ -33,7 +33,8 @@ def set_settings() -> dict:
                         action='store',
                         choices=[20, 10],
                         help=f'Debug режим',
-                        default=20)
+                        default=10)
+
     args_app = parser.parse_args()
     app_log_level = args_app.debug
 
@@ -44,6 +45,7 @@ def set_settings() -> dict:
                         format='%(asctime)s | %(levelname)s : %(message)s',
                         datefmt='%m.%d.%Y-%H:%M:%S:%Z',
                         level=app_log_level)
+    print(app_log_level)
 
     app_params['path'] = args_app.path
     app_params['date'] = args_app.date
@@ -80,9 +82,10 @@ def defines_a_file_or_folder_or_none(current_path: Path) -> list[Path]:
     return result
 
 
-def find_virus(*, file_list):
-    for file in file_list:
-        logging.info(f'WARNING Подозрительный файл {file}')
+def find_virus(*, file_list, date_time):
+    for str_file in file_list:
+        logging.info(f'WARNING файл {str_file} '
+                     f'был изменен с {date_time}')
 
 
 def check(file: Path) -> tuple:
@@ -122,14 +125,16 @@ def main(*, settings: dict) -> None:
                       for x, p in checked_file_parameters
                       if x < time_border]
     if not_valid_file:
-        find_virus(file_list=not_valid_file)
+        find_virus(file_list=not_valid_file, date_time=settings.get('date'))
 
 
 if __name__ == '__main__':
-    logging.info(f'------>>>>>> Запуск проверки')
     args = set_settings()
+    logging.info(f'------>>>>>> Запуск проверки')
+
     # Запуск программы
     main(settings=args)
+
     # Выход из программы
     logging.info(f'------>>>>>> Остановка проверки')
     exit(0)
