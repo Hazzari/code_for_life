@@ -13,6 +13,7 @@ xlrd3 = "^1.1.0"
 Pillow = "^8.3.2"
 pydub = "^0.25.1"
 SpeechRecognition = "^3.8.1"
+eyed3 = "^0.9.6"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"
