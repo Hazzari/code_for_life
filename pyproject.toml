@@ -6,6 +6,8 @@ authors = ["Aleksan <Dev.aleksan@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9.7"
+XlsxWriter = "^3.0.1"
+pandas = "^1.3.4"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"
